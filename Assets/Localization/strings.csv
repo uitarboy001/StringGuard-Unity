@@ -1,0 +1,4 @@
+﻿Key,Source,Target,MaxChars
+quest_accept, {npcName}?,{npcName} ,50
+hud_hp,HP: {0}/{1},HP: {0}/{1},15
+btn_exit,QUIT GAME,BEENDEN ,10
