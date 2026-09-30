@@ -1,0 +1,10 @@
+{
+  "name": "com.uitarboy001.stringguard",
+  "version": "0.1.0",
+  "displayName": "StringGuard",
+  "description": "1-click Google Sheets sync and localization token validator for Unity.",
+  "unity": "2021.3",
+  "author": {
+    "name": "uitarboy001"
+  }
+}
