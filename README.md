@@ -53,9 +53,3 @@ Download the latest `StringGuard.unitypackage` from the [Releases](https://githu
 2. Paste your Google Sheet URL (ensure the sheet is set to *Anyone with the link can view*).
 3. Set your target folder and file name (defaults to `Assets/Localization/strings.csv`).
 4. Click **Sync & Validate**.
-
----
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.   
-
