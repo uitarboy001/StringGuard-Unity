@@ -42,14 +42,15 @@ When collaborating with external translators or community contributors via Googl
 ## 🔄 End-to-End Workflow
 
 ```text
-
 [Google Sheets]
        │
        ├──► Translators validate on Web (Zero install, Client-side only)
-       │    └─► [https://string-guard-lemon.vercel.app/](https://string-guard-lemon.vercel.app/)
+       │    └─► https://string-guard-lemon.vercel.app/
        │
        └──► Developers sync in Unity (Tools > StringGuard > Sync Strings)
             └─► In-RAM Gatekeeper passes ──► Saved to Assets/Localization/strings.csv
+```
+
 ---
 
 ## 📦 Installation
@@ -59,4 +60,8 @@ When collaborating with external translators or community contributors via Googl
 2. Click the **+** icon in the top-left corner and select **Add package from git URL...**
 3. Enter:
    ```text
-   https://github.com/uitarboy001/StringGuard-Unity.git https://github.com/uitarboy001/StringGuard-Unity.git
+   https://github.com/uitarboy001/StringGuard-Unity.git
+   ```
+
+### Option 2: Unity Package (.unitypackage)
+Download the latest `StringGuard-v1.0.0.unitypackage` from the [Releases](https://github.com/uitarboy001/StringGuard-Unity/releases) page and double-click or drag it into your Unity Project.
