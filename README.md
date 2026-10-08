@@ -18,7 +18,7 @@ A lightweight, zero-setup Unity Editor gatekeeper and linter that validates Goog
 ---
 
 ## ⚠️ The Problem
-When collaborating with external translators or community contributors via Google Sheets:
+When collaborating with external translators or community contributors via Google Sheets
 - Translators accidentally wipe or alter code tokens like `{0}`, `{playerName}`, `%s`, or `%d`.
 - When passed into C# `string.Format()`, missing tokens trigger a **runtime FormatException and crash the game**.
 - Translated text (e.g., German/Russian/Thai) silently overflows UI elements.
@@ -49,3 +49,12 @@ When collaborating with external translators or community contributors via Googl
        │
        └──► Developers sync in Unity (Tools > StringGuard > Sync Strings)
             └─► In-RAM Gatekeeper passes ──► Saved to Assets/Localization/strings.csv
+
+## 📦 Installation
+
+### Option 1: Unity Package Manager via Git URL (Recommended)
+1. In Unity, open **Window > Package Manager**.
+2. Click the **+** icon in the top-left corner and select **Add package from git URL...**
+3. Enter:
+   ```text
+   [https://github.com/uitarboy001/StringGuard-Unity.git](https://github.com/uitarboy001/StringGuard-Unity.git)
