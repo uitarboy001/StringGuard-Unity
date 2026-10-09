@@ -65,3 +65,10 @@ When collaborating with external translators or community contributors via Googl
 
 ### Option 2: Unity Package (.unitypackage)
 Download the latest `StringGuard-v1.0.0.unitypackage` from the [Releases](https://github.com/uitarboy001/StringGuard-Unity/releases) page and double-click or drag it into your Unity Project.
+
+---
+
+### 📋 Free Google Sheets Template
+Don't have a formatted spreadsheet yet? Use our ready-to-use template with predefined columns (`Key`, `Source`, `Target`, `MaxChars`, `Context`):
+
+👉 **[Make a copy of the Official Template](https://docs.google.com/spreadsheets/d/1QG3pP6lpoWhb7MagMMiaUbEWk9GbPvKxQ1r0PGtejf8/copy)**
